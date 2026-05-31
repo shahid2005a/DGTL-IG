@@ -25,11 +25,6 @@ pip install flask flask-cors
 
 git clone https://github.com/shahid2005a/DGTL-IG.git
 
-cd DGTL-IG
-
-python DGTLIG.py
-
-
 ```
 
 ```
