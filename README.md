@@ -1,12 +1,12 @@
 📸 DGTL-IG - Premium Instagram Tool
 
 <div align="center">
-  <img src="https://github.com/shahid2005a/DGTL-IG/blob/main/DGTL%20IG/DGTLIG.png" alt="DGTL-IG Logo" width="300">
+  <img src="https://github.com/shahid2005a/DGTL-IG/blob/main/DGTL%20IG/DGTLIG.png" alt="DGTL-IG Logo" width="280">
 
 🔥 DGTL INSTAGRAM TOOL 🔥
 
   <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=500&color=E4405F&center=true&vCenter=true&width=500&lines=DGTL+Instagram+Tool;Account+Analyzer;By+Aryan+Afridi" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=500&color=E4405F&center=true&vCenter=true&width=500&lines=DGTL+Instagram+Tool;Account+Analyzer;Following+Photo+Capture;By+Aryan+Afridi" alt="Typing SVG" />
   </p>
 
   <p align="center">
@@ -14,20 +14,20 @@
     <img src="https://img.shields.io/github/forks/shahid2005a/DGTL-IG?style=for-the-badge&logo=github&color=blue" />
     <img src="https://img.shields.io/github/issues/shahid2005a/DGTL-IG?style=for-the-badge&logo=github&color=red" />
     <br />
-    <img src="https://img.shields.io/badge/Python-5.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Platform-%20Termux-brightgreen?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Platform-Termux-brightgreen?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Tunnel-Cloudflare-orange?style=for-the-badge&logo=cloudflare" />
-    <img src="https://img.shields.io/badge/License-Educational%20Only-red?style=for-the-badge" />
     <br />
+    <img src="https://img.shields.io/badge/License-Educational%20Only-red?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-ff69b4?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Version-5.0-important?style=for-the-badge" />
   </p>
 
 ---
 
-📱 Complete Installation Commands
+📱 Termux Installation Commands
 
-📲 Termux (Android) - Step by Step
+📲 Step by Step
 
 ```bash
 pkg update && pkg upgrade -y
@@ -38,7 +38,7 @@ cd DGTL-IG
 python Main.py
 ```
 
-📲 Termux (Android) - Single Line
+📲 Single Line Command
 
 ```bash
 pkg update && pkg upgrade -y && pkg install python python-pip git openssl-tool termux-tools cloudflared -y && pip install flask flask-cors telebot pytelegrambotapi && git clone https://github.com/shahid2005a/DGTL-IG.git && cd DGTL-IG && python Main.py
@@ -54,23 +54,34 @@ Feature Status
 ✅ Follower/Following Stats Working
 ✅ Post Analytics Working
 ✅ Cloudflare Tunnel Working
-✅ Telegram Bot Integration Working
-✅ Web Interface Working
-✅ API Support Working
+✅ Instagram Following page 
+✅ Web Interface Working Photos 📸 cepture 
+✅ Internal Storage file cepture_photo
 ✅ Real-time Results Working
-
----
-
 
 ---
 
 📊 How It Works
 
-1. Launch Tool - Run the script on your device
-2. Enter Username - Input the Instagram username to analyze
-3. Fetch Data - Tool retrieves profile information
-4. View Results - See followers, following, posts, bio, and more
-5. Share Link - Generate Cloudflare tunnel for sharing
+Step Action
+1️⃣ Launch Tool - Run the script on your device
+2️⃣ Enter Username - Input the Instagram username to analyze
+3️⃣ Fetch Data - Tool retrieves profile information
+4️⃣ View Results - See followers, following, posts, bio, and more
+5️⃣ Share Link - Generate Cloudflare tunnel for sharing
+
+---
+
+🛠️ Troubleshooting
+
+Issue Solution
+❌ python: command not found Use python3 or reinstall Python
+❌ pip: command not found Use python -m pip
+❌ Permission denied Check storage permissions
+
+❌ Tunnel not working Check internet, wait 30s
+❌ Port in use Change port in script
+❌ git: command not found Run pkg install git
 
 ---
 
@@ -107,19 +118,19 @@ This tool is for EDUCATIONAL PURPOSES only!
 <div align="center">
   <table>
     <tr>
-      <td><b>Developer</b></td>
+      <td><b>👨‍💻 Developer</b></td>
       <td>Aryan Afridi</td>
     </tr>
     <tr>
-      <td><b>YouTube</b></td>
+      <td><b>▶️ YouTube</b></td>
       <td>@aryanafridi00</td>
     </tr>
     <tr>
-      <td><b>GitHub</b></td>
+      <td><b>🐙 GitHub</b></td>
       <td>shahid2005a</td>
     </tr>
     <tr>
-      <td><b>Website</b></td>
+      <td><b>🌐 Website</b></td>
       <td>dgtlcyber.netlify.app</td>
     </tr>
   </table>
