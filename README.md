@@ -166,8 +166,26 @@
 </p>
 
 ---
+📦 Installation Guide (Cloudflared pahle install kare kali lunix me fir jake ak ak command ko install kare terminal me)
 
-📦 Installation Guide
+```bash
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/local/bin/cloudflared
+sudo chmod +x /usr/local/bin/cloudflared
+```
+
+⚡ Kali Lunix Command Installation
+
+```bash
+sudo apt update -y
+sudo apt install python3 python3-pip git unzip -y
+sudo apt install cloudflared -y
+pip3 install flask flask-cors
+git clone https://github.com/shahid2005a/DGTL-IG.git
+cd DGTL-IG
+unzip -o static.zip
+ls -la static/
+python3 main.py
+```
 
 📱 Termux (Android)
 
