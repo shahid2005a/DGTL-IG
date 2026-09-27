@@ -223,7 +223,7 @@ pkg update && pkg upgrade -y && pkg install python python-pip git unzip openssl-
     </tr>
     <tr>
       <td>❌ No module 'flask'</td>
-      <td><code>pip install flask flask-cors telebot pytelegrambotapi</code></td>
+      <td><code>pip install flask flask-cors </code></td>
       <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
     </tr>
     <tr>
