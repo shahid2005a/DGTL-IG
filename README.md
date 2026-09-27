@@ -187,22 +187,13 @@ ls -la static/
 python3 main.py
 ```
 
-📱 Termux (Android)
+📱 Termux (Android) Single Command 
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install python python-pip git openssl-tool termux-tools cloudflared -y
-pip install flask flask-cors telebot pytelegrambotapi
-git clone https://github.com/shahid2005a/DGTL-IG.git
-cd DGTL-IG
-python Main.py
+pkg update && pkg upgrade -y && pkg install python python-pip git unzip openssl-tool termux-tools cloudflared wget php curl -y && pip install flask flask-cors pytelegrambotapi --break-system-packages && termux-setup-storage && git clone https://github.com/shahid2005a/DGTL-IG.git && cd DGTL-IG && unzip -o static.zip && ls -la static/ && python Main.py
 ```
 
-⚡ Single Command Installation
 
-```bash
-pkg update && pkg upgrade -y && pkg install python python-pip git openssl-tool termux-tools cloudflared -y && pip install flask flask-cors telebot pytelegrambotapi && git clone https://github.com/shahid2005a/DGTL-IG.git && cd DGTL-IG && python Main.py
-```
 
 ---
 
